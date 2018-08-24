@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Size for margin or padding -->
+    <dimen name="margin_padding">16dp</dimen>
+    <!-- Size for half the default margin or padding -->
+    <dimen name="half_margin_padding">8dp</dimen>
+    <!-- Size for quarter of the default margin or padding -->
+    <dimen name="quarter_margin_padding">4dp</dimen>
+    <!-- Size for details text -->
+    <dimen name="details_text_size">16sp</dimen>
+    <!-- Zero size -->
+    <dimen name="zero_size">0dp</dimen>
+</resources>

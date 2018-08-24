@@ -1,0 +1,118 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for menu option that inserts default product info [CHAR LIMIT=20] -->
+    <string name="action_insert_default_product">Insert Default Product</string>
+
+    <!-- Label for menu option that deletes all products info [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Title for the empty view, when there is no data [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Your shelves are empty!</string>
+
+    <!-- Subtitle for the empty view, encouraging to add a first entry [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a first product</string>
+
+    <!-- Title for adding a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for editing an existing product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Label for menu option to save the current product info [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for menu option to delete the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message for when new product has been successfully added [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Toast message for when there was an issue with saving new product [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!-- Toast message for when a product has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message for when there was an issue with updating the product [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <!-- Dialog message for when user wants to exit editor but did not save changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog option to discard the changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog option to stay and keep editing the product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message for when current product has been successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message for when there was an issue with deleting the product [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Dialog message asking for confirmation to delete the product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog option to confirm deleting the product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog option to cancel and not delete the product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for product name category in the Editor Activity [CHAR LIMIT=30] -->
+    <string name="category_name">Name</string>
+
+    <!-- Label for supplier category in the Editor Activity [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for supplier category in the Editor Activity [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for supplier category in the Editor Activity [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Hint for name field [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Product name</string>
+
+    <!-- Hint for price field [CHAR LIMIT=30] -->
+    <string name="hint_price">Price (GBP)</string>
+
+    <!-- Hint for quantity field [CHAR LIMIT=30] -->
+    <string name="hint_quantity">Quantity</string>
+
+    <!-- Hint for supplier name field [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Supplier name</string>
+
+    <!-- Hint for phone field [CHAR LIMIT=30] -->
+    <string name="hint_phone">Phone</string>
+
+    <!-- Price title for the list View [CHAR LIMIT=30] -->
+    <string name="price_title">Price: GBP\u0020</string>
+
+    <!-- Quantity title for the list View [CHAR LIMIT=30] -->
+    <string name="quantity_title">Quantity:\u0020</string>
+
+    <!-- Button "Sold" for the list View [CHAR LIMIT=30] -->
+    <string name="sell_button">Sell one</string>
+
+    <!-- Button "decrement" for the EditorActivity [CHAR LIMIT=30] -->
+    <string name="decrement_button">-</string>
+
+    <!-- Button "increment" for the EditorActivity [CHAR LIMIT=30] -->
+    <string name="increment_button">+</string>
+
+    <!-- Toast message for decrement button in the EditorActivity [CHAR LIMIT=30] -->
+    <string name="decrement_toast">Cannot change to a negative value</string>
+
+    <!-- Toast message for missing values in the EditorActivity [CHAR LIMIT=30] -->
+    <string name="empty_values_toast">New product requires name and price</string>
+
+    <!-- Button to call the supplier for the EditorActivity [CHAR LIMIT=30] -->
+    <string name="call_button">Call the supplier</string>
+
+    <!-- Price currency for the EditorActivity [CHAR LIMIT=30] -->
+    <string name="price_currency">GBP</string>
+</resources>
